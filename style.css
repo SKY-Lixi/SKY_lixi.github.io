@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+@font-face {
+    font-family: DMSerif;
+    src: url(./assets/fonts/DMSerifDisplay-Regular.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+
+body{
+    font-family: "DMSerif", Verdana;
+background: url(./assets/img/bg-mc.jpeg) center/cover;
+min-height: 100vh;
+}
+
+h1 {
+    color: #333;
+    font-family: "DMSerif", Verdana;
+    font-size: 2.3vw;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.644);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-family: "DMSerif", Verdana;
+    font-size: 2.3vw;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.3vw;
+    font-family: "DMSerif", Verdana ;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
